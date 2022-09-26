@@ -1,0 +1,23 @@
+@import url(global.css);
+
+main{
+    flex-direction: column;
+}
+
+.botoes{
+    display: flex;
+}
+
+.button-dark{
+    width: 330px;
+    height: 70px;
+    padding: 24px;
+    cursor: pointer;
+}
+
+.button-light{
+    width: 330px;
+    height: 70px;
+    padding: 24px;
+    margin-left: 5px;
+}

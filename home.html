@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <title>Jogo da Forca</title>
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="logo alura">
+    </header>
+
+    <main>
+        <section>
+            <a href="jogo-da-forca.html">
+                <div class="linkJogar button-dark">Comerçar a jogar</div>
+            </a>
+
+
+            <a href="adicionar-palavra.html">
+                <div class="linkAdicionar button-light">Adicionar nova palavra</div>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Desenvolvido por Jhonatan Deyvid Meneguel de Souza</h3>
+    </footer>
+
+    <script>
+        if (localStorage.getItem("palavras") == null) {
+            localStorage.setItem("palavras", '["ALURA","ORACLE","ONE", "DESENVOLVEDOR"]');
+        }
+    </script>
+</body>
+
+</html>

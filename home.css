@@ -1,0 +1,18 @@
+@import url(global.css);
+
+a{
+    text-decoration: none;
+}
+
+.button-dark{
+    width: 320px;
+    height: 105px;
+    padding: 40px;
+}
+
+.button-light{
+    width: 320px;
+    height: 105px;
+    padding: 40px; 
+    margin-top: 5px;
+}
